@@ -22,5 +22,5 @@ export function Sidebar() {
                 </a>
             </footer>
         </aside>
-    )
+    );
 }
