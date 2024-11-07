@@ -36,10 +36,10 @@ export function Post({ author, publishedAt, content }) {
     }
 
     function handleNewCommentInvalid() {
-       event.target.setCustomValidity('Esse campo é Obrigatório'); 
+        event.target.setCustomValidity('Esse campo é Obrigatório');
     }
 
-    function deleteComment(commentToDelete){
+    function deleteComment(commentToDelete) {
         const commentsWithoutDeletedOne = comments.filter(comment => {
             return comment != commentToDelete;
         })
